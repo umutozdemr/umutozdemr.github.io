@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+a {  color : #FDDDD3; }
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #1f1f14;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    background: #F8E6E0;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 100%;
+}
+
+
+
+/* Fake image */
+
+/* Add a card effect for articles */
+.card {
+     background-color:#1f1f14;
+     padding: 20px;
+     margin-top: 5px;
+     font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image {
+    min-height:25px
+}
+
+/* Footer */
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+           
+    <img src="me.png" alt="pic" align="bottom">
+      <h2 class="b"> <font color=#F8E6E0>  Melike Sezen Özdemir</font></h2>
+  <p class="b"><font color=#F8E6E0>PhD Student  <br> Delft University of Technology  <br> Embedded Software Group</font></p>
+  <p class="b"><font color=#F8E6E0><b>Research Area:</b><br>  Wireless Communication Design<br> for Batteryless IoT Networks</font></p>
+     
+    </div>
+   
+  </div>
+     <div class="card">
+<p class="b"> <font color=#F8E6E0>  
+            <a href="mailto:m.s.ozdemir@tudelft.nl">Contact</a>
+    </font></p>
+         <p class="b"> <font color=#F8E6E0>  
+            <a href="https://www.linkedin.com/in/msezen/">LinkedIn Profile</a>
+    </font></p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
